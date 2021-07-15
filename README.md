@@ -1,3 +1,17 @@
+# fork update
+ 因很多镜像在用 Dockerfile 构建时[使用的 pcs-web 的仓库]("https://github.com/liuzhuoling2011/baidupcs-web/releases)已经移除, 所以这里另外找了一个有用的, 修改了 Dockerfile 自行构建使用.
+
+## note
+
+已经试过, 这个 pcs 的方式不会有加速效果. 而且只能下载自己网盘里的东西, 从百度盘链接直接点下载是不会有任何方式调用到这个仓库的.
+对于自己目前的需求, 还是想有可以在网页点击链接后, 调用网盘下载. 所以只有使用 Linux GUI 桌面环境, 在里面使用浏览器调用.
+
+对于其他的一些浏览器插件, 之前还好找, 现在要找个能用的还是太累了. 而且慢慢下也没什么了, 急用的东西都不丢度盘了已经.
+
+## acknowledge: 
+https://github.com/SuperNG6/docker-baidupcs-web/blob/master/Dockerfile
+https://hub.docker.com/r/rdvde/baidupcs
+https://github.com/masx200/baidupcs-web/releases
 # 离线百度网盘下载Docker版
 Docker Hub：https://hub.docker.com/r/superng6/baidupcs-web  
 GitHub：https://github.com/SuperNG6/docker-baidupcs-web  
